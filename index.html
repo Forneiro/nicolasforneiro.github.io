@@ -3,11 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nico</title>
+    <title>Nicolás Forneiro</title>
+    <!-- TIPOGRAPHY -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1>
-        Hola
-    </h1>
+    <header class="bg-header">
+        <div class="header padding">
+            <a href="#">
+                <i class="fa-solid fa-house"></i>
+            </a>
+            <nav class="header__nav">
+                <a href="#">Home</a>
+                <a href="#">About Me</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+
+        <div class="header__info">
+            <div class="header__info-img">
+                <img src="img/perfil.png" alt="perfil-image">
+            </div>
+            <p>¡Hola! Soy Nicolás Forneiro. Tengo 20 años y soy estudiante de desarrollo web. Busco especializarme en el desarrollo front-end y en mi tiempo libro practico creando diferentes páginas web.</p>
+        </div>
+    </header>
+    <main>
+        
+        <section class="padding articles-section" id="projects">
+            <div class="project-tittle">
+                <h2>Projects</h2>
+                <div></div>
+            </div>
+            
+
+            <div class="articles">
+                <article class="article">
+                    <a href="https://forneiro-pets.netlify.app">
+                        <div class="article__tittle">
+                            <h3>Freelancer</h3>
+                        </div>
+                        <div class="article__img">
+                            <img src="img/pagina_1.png" alt="imagen Freelancer">
+                        </div>
+                    </a>
+                </article>
+    
+                <article class="article">
+                    <a href="https://blogdecafeforneiro.netlify.app">
+                        <div class="article__tittle">
+                            <h3>Blog de Café</h3>
+                        </div>
+                        <div class="article__img">
+                            <img src="img/pagina_2.png" alt="imagen Blog de cafe">
+                        </div>
+                    </a>
+                </article>
+    
+                <article class="article">
+                    <a href="https://forneiro-pets.netlify.app">
+                        <div class="article__tittle">
+                            <h3>Pets</h3>
+                        </div>
+                        <div class="article__img">
+                            <img src="img/pagina_3.png" alt="imagen mascotas">
+                        </div>
+                    </a>
+                </article>
+            </div>
+            
+
+        </section>
+
+        <form action="" id="contact">
+            <fieldset>
+                <legend>Contact me</legend>
+                <div class="input-container">
+                    <div class="input-container2">
+                        <div class="input">
+                            <label for="">Nombre</label>
+                            <input type="text" placeholder="Tu nombre">
+                        </div>
+                        <div class="input">
+                            <label for="">Teléfono</label>
+                            <input type="text" placeholder="Tu teléfono">
+                        </div>
+                    </div>
+                    <div class="input">
+                        <label for="">Email</label>
+                        <input type="email" placeholder="Tu correo">
+                    </div>
+                </div>
+                
+                <input type="submit">
+            </fieldset>
+        </form>
+
+        <footer>
+            <div class="footer-content">
+                <p>Copyright © - Nicolás Forneiro - 2023</p>
+
+                <nav class="nav-footer">
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </nav>
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://kit.fontawesome.com/337d133e29.js" crossorigin="anonymous"></script>
 </body>
 </html>
